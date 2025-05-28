@@ -12,6 +12,10 @@ const { factorial } = require('./utils/factorial');
 async function main () {
   const result = factorial(5); // Call the factorial function with the value of 5
   console.log('factorial of 5 is', result); // Log the result to the console
+
+  // Convert 25 Degrees Celsius to Fahrenheit
+  const fahrenheit = celsiusToFahrenheit(25);
+  console.log('25\u00B0C is', fahrenheit, '\u00B0F');
 }
 
 main(); // Call the main function to calculate the factorial of 5
